@@ -10,4 +10,4 @@ while n == m:
 if suma !=n:
    print("se hiso la suma del",n,"y",suma)
 else:
-   print("no se hiso la suma del",n,)
+   print("no se hiso la suma del",n,"y",suma)
