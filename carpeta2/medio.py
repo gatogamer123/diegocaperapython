@@ -1,7 +1,7 @@
 import random
 lista=[]
 tam=random.randint(10,20)
-i=0
+i=1
 while i< tam:
     num=random.randrange(100)
     print("valor numero:",i+1)
