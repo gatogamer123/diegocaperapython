@@ -21,11 +21,6 @@ for i in range(div):
       
 print(f'el promedio es',result/div)
 
-max=g
-min=n
-for i in range(max):
-     lista=max
-     lista=min
-     print(lista)
+
 
 
