@@ -10,3 +10,5 @@ for i in range(tam):
     suma+=num
 print(lista)
 print(f'la suma es {suma}')
+
+

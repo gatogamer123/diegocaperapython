@@ -14,7 +14,7 @@ if num1 < 0:
         print("")
         for j in range(1,i+1):
 
-         print(j,end="")
+         print()
 
 else:
     print("")

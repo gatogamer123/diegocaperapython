@@ -15,11 +15,28 @@ def main():
     cantidad = 5
 
     for i in range(cantidad):
-        numero = 4
+        numero = int(input("Ingrese un número: "))
         numeros.append(numero)
 
     numeros_ordenados = ordenar_numeros(numeros)
     print("Números ordenados de mayor a menor:", numeros_ordenados)
+
+main()
+
+def ordenar_numeros(numeros):
+    numeros.sort(reverse=True)
+    return numeros
+
+def main():
+    numeros = []
+    cantidad = 5
+
+    for i in range(cantidad):
+        numero = int(input("Ingrese un número: "))
+        numeros.append(numero)
+
+    numeros_ordenados = ordenar_numeros(numeros)
+    print("Números ordenados de menor a mayor:", numeros_ordenados)
 
 main()
 
