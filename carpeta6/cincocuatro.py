@@ -1,23 +1,28 @@
 import random
-def lista1(tam,rango):
+mayor=500
+menor=100
+cont=1
+def lista1(l,n):
     cuartil=[]
-    cuartil=[random.randrange(rango)for i in range(tam)] 
-    return cuartil
-def lista2(tam,rango):
+    cuartil=[random.randrange(l)for i in range(n)] 
+    mayor>l
+    for i in range(l==mayor):
+      if l<mayor:
+       menor+1
+       mayor-1
+       l//4
+    else:
+       return cuartil
+def lista2(l,n):
     quintil=[]
-    quintil=[random.randrange(rango)for i in range(tam)]
-    return quintil
-def suma(tam,rango):
-    suma=[]
-    mayor=500
-    menor=100
-    suma=[random.randrange(rango)for i in range(tam)]
-    cuartil=sum,1
-    return suma
-    
-lf=lista1(200,2500)
+    quintil=[random.randrange(l)for i in range(n)]
+    mayor>l
+    for i in range(n-1):
+      if l<mayor:
+       mayor//4
+    else:
+       return quintil
+lf=lista1(100/4,500)
 print(lf)
-pl=suma(100,500)
-print(pl)
-lg=lista2(10,10)
-print(lg)
+lf2=lista2(100/5,500)
+print(lf2)
