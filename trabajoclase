@@ -1,0 +1,23 @@
+class cursos:
+    def __init__(self,clase):
+        self.__clase=clase
+        clase=[]
+    def getclase(self):
+        self.__clase=[]
+        return self.__clase
+    def setclase(self):
+        self.__clase
+a=cursos()
+print(a.getclase())
+
+class nuevos:
+    def __init__(self,new):
+        self.__new=new
+        new=[]
+    def getnew(self):
+        self.__new=[]
+        return self.__new
+    def setnew(self):
+        self.__new
+b=nuevos()
+print(b.getnew())
