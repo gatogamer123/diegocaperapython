@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGyE4aKzYsG-KA0Q7orgeq-6X0iiMJX5C9g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.p{
+    text-align: center;
+}
+
+.diseño{
+    display:grid;
+    grid-template-columns: 4fr 4fr 1fr ;
+    grid-template-rows: 290px 360px 100px ;
+    gap:6px;
+}
+.pro1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAByQmv9frXF0hbGF_Jq9Hw1MCBCKX9llSQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.pro2{
+    display:flex;
+    background: rgb(225, 230, 183);
+    border:3px solid black;
+}
+.pro3{
+    background-color: rgb(234, 238, 19);
+    background-image: url("C:\Users\SENA\Desktop\html-css-1\vecteezy_facebook-metaverse-social-media-logo-icon-technology_11087760_944.zip");
+    grid-row:3/4;
+    grid-column: 1/4;
+}
+.pro5{
+    background-image: url(https://www.uniboyaca.edu.co/sites/default/files/inline-images/mue%CC%81vete%20todo%20el%20tiempo%20posible-2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.pro6{
+    display:flex;
+    background: rgb(225, 230, 183);
+    border:3px solid black;
+}
+
+.pro{
+    width:100%;
+    max-width:2000px;
+    margin: auto;
+}
+   .pro p{
+    margin-bottom:100px;
+    margin-left:50px;
+    }
+    .pro li{
+        margin-left:255px;
+    }
+header nav {
+    background:rgb(234, 238, 19);
+    margin-bottom:30px;
+}
+  header nav ul{
+    list-style:none;
+    overflow: hidden;
+    }
+       header nav ul li{
+        float:left;
+       }
+
+       header nav ul li a{
+        display: block;
+        padding: 20px;
+        color:rgb(3, 3, 3);
+        text-decoration: none;
+       }
+
+       header nav li a:hover{
+        background: #177cc0;
+       }
+

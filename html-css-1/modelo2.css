@@ -1,0 +1,66 @@
+body{
+    background:linear-gradient(rgb(88, 213, 230),rgba(0, 11, 109, 0.801));
+    justify-content: center;
+    text-align:center;
+
+}
+
+.BU{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    grid-row: 1/4;
+    grid-column: 2/3;
+    border:8px solid  turquoise;
+}
+.BUIMG{
+
+    grid-row: 1/4;
+    grid-column: 1/4;
+    }
+.BUSEO{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 290px 360px 100px ;
+    gap:6px;
+}
+.arriba{
+    width:100%;
+    max-width:2000px;
+    margin: auto;
+}
+   .arriba p{
+    margin-bottom:100px;
+    margin-left:50px;
+    }
+    .arriba li{
+        margin-left:255px;
+    }
+header nav {
+    background:black;
+    margin-bottom:30px;
+}
+  header nav ul{
+    list-style:none;
+    overflow: hidden;
+    }
+       header nav ul li{
+        float:left;
+       }
+
+       header nav ul li a{
+        display: block;
+        padding: 20px;
+        color:white;
+        text-decoration: none;
+       }
+
+       header nav li a:hover{
+        background: #177cc0;
+        transition: 0.4s;
+        box-shadow: 0 0 15px  white;
+        transition:0.9;
+       }
+
+
+
